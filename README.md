@@ -1,23 +1,26 @@
-<h1 align="center">Hi 👋, I'm ABDELRAHMAN KHEALD</h1>
-<h3 align="center">A passionate AI & DATA SCIENCE ENGINEER FROM EGYPT</h3>
+# Abdelrahman Khaled
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=abdelrahmank1&label=Profile%20views&color=0e75b6&style=flat" alt="abdelrahmank1" /> </p>
+AI Automation Engineer, Cairo, Egypt. Working remotely with international clients since January 2025.
 
+I build automation systems that run without anyone watching: n8n, LLM APIs, Odoo, WhatsApp, Telegram, and the dashboards around them. B.Sc. Computer Science, Modern Academy Cairo (2027).
 
-- 🌱 I’m currently learning **MACHINE LEARNING**
+## Shipped systems
 
+| System | What it does | Stack |
+|---|---|---|
+| Invoice automation for Oranje Dienstverlening B.V. | Invoices arrive as WhatsApp messages, photos or PDFs. AI extracts the data, matches the client with RAG, generates Dutch PDF invoices with correct VAT, and feeds a review dashboard with Excel export. 300+ invoices processed, EUR 150K+ in total value, no manual entry. | n8n, Next.js 15, Supabase and pgvector, Redis, AWS S3, GPT-4o-mini, Docker |
+| Quotation agent for Odoo (Sphinx Travel) | Staff describe a trip in Telegram. The bot extracts the details, applies the agency's booking rules, creates the quotation in Odoo and replies with its number. Missing details are reported back to the employee. | n8n, Odoo API, Telegram Bot API, LLM extraction |
+| Hotel contract and stop-sale intake (Sphinx Travel) | Reads contract and stop-sale emails in any format (PDF, image, Excel, Word), proposes the structured result in a Telegram group, and creates the record in Odoo once an employee confirms. | n8n, GPT-5 OCR, LLM agent with tools, Odoo API |
+| Telegram task manager with reminders | Creates tasks from natural messages in any language, resolves deadlines in the client's timezone, and reminds before they are due. | n8n, Telegram, Supabase, Next.js |
+| Snapver (in development) | Telegram bot that turns a small business owner's phone photos of products into professional images for ads and websites. | Telegram, n8n, custom admin dashboard |
 
-- 📫 How to reach me **abdelrhamank12a@gmail.com**
+Most of this work is for private clients, so the code is not public. Sanitised workflow examples are in the repositories pinned below.
 
-- 📄 Know about my experiences [www.linkedin.com/in/abdelrahmank12a](www.linkedin.com/in/abdelrahmank12a)
+## Tools I work with daily
 
+n8n, Next.js, TypeScript, Python, Supabase and PostgreSQL, Redis, Docker, AWS S3, Claude, OpenAI and OpenRouter APIs, WhatsApp Business API, Telegram Bot API, Odoo API.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+## Contact
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=abdelrahmank1&show_icons=true&locale=en&layout=compact" alt="abdelrahmank1" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=abdelrahmank1&show_icons=true&locale=en" alt="abdelrahmank1" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=abdelrahmank1&" alt="abdelrahmank1" /></p>
-
+abdelrahmank12a@gmail.com
+LinkedIn: linkedin.com/in/abdelrahmank12a
